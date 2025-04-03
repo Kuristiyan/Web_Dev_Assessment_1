@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif; /* Text font for readability */
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Text color */
+}
+
+header { /* Header styles */
+    background-color: #17072b; /* Header background color */
+    color: #FFFFFF; /* Header text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 { /* Main title styles */
+    font-family: Tahoma, sans-serif; /* Font for the main title */
+    font-weight: bold; /* Bold title */
+    margin: 0;
+    font-size: 2em; /* Increase font size */
+    text-decoration: underline; /* Underline the title */
+}
+
+nav ul { /* Navigation styles */
+    list-style: none; /* Remove default list style */
+    padding: 0; 
+    margin: 10px 0 0; /* Margin for spacing */
+}
+
+nav ul li { /* Navigation list item styles */
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a { /* Navigation link styles */
+    color: #FFFFFF; /* Navigation link color */
+    text-decoration: none; 
+    font-size: 1.1em; /* Adjust navigation link size */
+}
+
+main { /* Main content styles */
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the content */
+    padding: 20px; /* Padding around the main content */
+}
+
+section { /* Section styles */
+    display: flex; /* Flexbox for layout */
+    width: 80%; /* Width of the section */
+}
+
+article { /* Article styles */
+    flex: 2;  
+    padding-right: 20px; /* Space between article and sidebar */
+}
+
+article h2 { /* Article heading styles */
+    font-size: 1.8em; /* Welcome heading size */
+    margin-bottom: 10px; /* Space below heading */
+    text-decoration: underline; /* Underline the heading */
+    font-weight: bold; /* Bold heading */
+}
+
+article p { /* Paragraph styles */
+    line-height: 1.6; /* To Improve paragraph readability */
+}
+
+article img { /* Image styles */
+    max-width: 100%; /* Image takes full width of article */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Space above the image */
+}
+
+aside { /* Sidebar styles */
+    flex: 1; 
+    background-color: #172d67; /* Sidebar background color */
+    color: #FFFFFF; /* Sidebar text color */
+    padding: 20px; 
+}
+
+aside h3 { /* Sidebar heading styles */
+    font-size: 1.5em; /* Sidebar heading size */
+    margin-bottom: 15px;
+    text-decoration: underline; /* Underline the heading */
+    font-weight: bold; /* Bold heading */
+}
+
+aside ul { /* Sidebar list styles */
+    list-style-type: none; /* Remove default list style */
+    padding: 0; 
+}
+
+aside ul li { /* Sidebar list item styles */
+    line-height: 1.8; /* List item spacing */
+}
+
+.aside-images { /* Container for images in the sidebar */
+    display: flex; /* Display images side by side */
+    justify-content: space-between; /* Even space between images*/
+    margin-top: 20px; 
+}
+
+.aside-images img { /* Image styles in the sidebar */
+    max-width: 48%; /* Adjust for two images side by side */
+    width: 250px; /* Fixed width for images */
+    height: 250px; /* Fixed height for images */
+    text-align: bottom; /* Align images to the bottom */
+}
+
+footer {
+    background-color: #8c15e9; /* Footer background color */
+    color: #FFFFFF; /* Footer text color */
+    text-align: center; /* Center align footer text */
+    padding: 0; 
+}
+
+footer p {
+    font-size: 0.9em; /* Adjust footer text size */
+    padding: 10px; 
+}

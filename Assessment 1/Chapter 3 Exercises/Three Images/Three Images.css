@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif; /*Text font for readability*/
+    text-align: center; /* Center align text */
+    background-color: #f5f5f5; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+h1 { /* Main title style */
+    color: #333; /* Header color */
+}
+
+.images { /* Using class as Container for images */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the images */
+    gap: 20px; /* Space between images */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.cat-image { /* Using class for each image container */
+    background: white; /* White background for image container */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.cat-image img { /* Image style */
+    width: 100%; /* Uses the full width of the container */
+    height: auto; 
+    border-radius: 10px; /* Rounded corners for images */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Smooth transition for effects */
+    filter: grayscale(50%) contrast(110%); /* Grayscale and contrast effect */
+}
+
+.cat-image img:hover { /* Hover effect for images */
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    filter: grayscale(0%) contrast(120%); /* Remove grayscale and increase contrast on hover */
+}
+
+p {
+    font-size: 14px; /* Font size for paragraph */
+    color: #666; /* Text color for paragraph */
+    margin-top: 8px; /* Space above the paragraph */
+}

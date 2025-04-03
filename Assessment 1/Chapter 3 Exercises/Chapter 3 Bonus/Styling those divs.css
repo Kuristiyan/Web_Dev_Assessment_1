@@ -1,0 +1,46 @@
+body {
+    margin: 100px auto; /* Center the body */
+    width: max-content; 
+}
+
+div {
+    display: inline-block; 
+    font-family: sans-serif; /* The font for all divs */
+    font-size: 20px; /* The font size for all divs */
+    margin: 25px; /* Margin between divs */
+    border: 4px solid black; /* Constant border for all divs */
+    line-height: 200px; /* Center text vertically */
+    text-align: center; /* Center text horizontally */
+    width: 200px; /* The Width of all divs */
+    height: 200px; /* The Height of all divs */
+}
+
+/* div#A - Purple border with red blurred shadow */
+#A { /* ID selector for div A */
+    border: 4px solid #9743e5; /* Purple border */
+    box-shadow: 10px 10px 15px #ee0c25; /* Red shadow */
+}
+
+/* div#B - Green border with inside shadow effect */
+#B { /* ID selector for div B */
+    border: 4px solid #1eff21; /* Green border */
+    box-shadow: inset 10px 10px 15px black; /* Inside shadow effect */
+}
+
+/* div#C - Multi-layered colored borders */
+#C { /* ID selector for div C */
+    border: 4px solid #fe8b01; /* Orange border */
+    box-shadow: /* Multiple layers of shadows */
+        0 0 0 10px #0000fe, /* Blue shadow */
+        0 0 0 20px #ff0100, /* Red shadow */
+        0 0 0 30px #018000; /* Green shadow */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* div#D - Red border with blurred text effect */
+#D { /* ID selector for div D */
+    border: 2px solid #b22323; /* Red border */
+    font-size: 18px; /* Font size for div D */
+    font-weight: lighter; /* Lighter font weight */
+    text-shadow: 3px 3px 3px black; /* Black shadow effect for the text */
+}

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Text Fonts*/
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* background color */
+}
+
+.calculator { /* Main calculator container */
+    background-color: #ffffff; /* White background for the calculator */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 350px; /* Fixed width for the calculator */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*Transition for hover effects */
+
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+}
+
+.calculator:hover { /* Hover effect for the calculator */
+    transform: translateY(-5px); /* Slight lift to the calculator when hovering */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); /* Shadow on hover */
+}
+
+h1 { /* Main title style */
+    text-align: center; /* Center align the title */
+    margin-bottom: 30px; /* Space below the title */
+    color: #37474f; /* Darker color for the title */
+    font-size: 28px; /* Font size for the title */
+    font-weight: 600; /* Semi-bold font weight */
+}
+
+.input-group { /* Group for input fields */
+    width: 100%; /* Ensure inputs take full width of container */
+    margin-bottom: 25px; /* Space below each input group */
+}
+
+label { /* Label for input fields */
+    display: block; /* Block display for labels */
+    margin-bottom: 8px;
+    font-weight: 500; /* Semi-bold font weight */
+    color: #546e7a; /* Color for labels */
+}
+
+input[type="number"] { /* Number input field style */
+    width: calc(100% - 16px); /* Full width minus padding */
+    padding: 12px;  /* Padding inside the input */
+    border: 1px solid #cfd8dc;  /* Border color */
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box; 
+    font-size: 16px; /* Font size for input */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition effect */
+}
+
+input[type="number"]:focus { /* Focus effect for input fields */
+    outline: none; 
+    border-color: #29b6f6; /* Border color on focus */
+    box-shadow: 0 0 8px rgba(41, 182, 246, 0.4); /* Shadow on focus */
+}
+
+button { /* Button style */
+    width: 100%; 
+    padding: 14px;
+    background-color: #1e88e5; /* Button color */
+    color: white; /* Text color */
+    border: none; 
+    border-radius: 6px;
+    font-size: 18px; /* Font size for button */
+    font-weight: 500; /* Semi-bold font weight */
+    cursor: pointer; /* Pointer cursor on hover */ 
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition for hover effects */
+}
+
+button:hover { /* Hover effect for button */
+    background-color: #1565c0; /* Color change on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+button:active { /* Active effect for button */
+    transform: translateY(1px); /* Slight press effect */
+}
+
+#total { /* Total result display */
+    text-align: center; /* Center align the result */
+    margin-top: 30px; /* Space above the result */
+    font-size: 20px; /* Font size for result */
+    font-weight: 600; /* Semi-bold font weight */
+    color: #263238; /* Text Color */
+}

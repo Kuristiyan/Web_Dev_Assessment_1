@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* For text font */
+    line-height: 1.7;                       /* Text spacing */
+    color: #333;                            /* Text color */
+    background-color: #f9f4ef;              /* To change the background color */
+    padding: 25px;                          /* Padding around the content */
+}
+
+/* Header Styles */
+h1 {
+    color: #4a2c2a; /* Chocolate Color like the recipe */
+    text-align: center; /* Center the main title */
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #8b4513; /* Text color */
+    border-bottom: 2px solid #d3c1ae; /* Underline to mark the section */
+    padding-bottom: 5px;
+    margin-top: 30px; /* Space above section titles */
+    margin-bottom: 15px; /* Space below section titles */
+}
+
+/* Paragraph Styles */
+p.desc { /* Using class to target the specific paragraph*/
+    text-align: center; /* Center the intro text */
+    color: #5a4a42;     /* Text color */
+    font-style: italic;
+    max-width: 600px;   /* Limit width for better readability */
+    margin: 0 auto 30px auto; /* Centers the paragraph with margin below */
+}
+
+/* List Styling */
+ul, ol {
+    margin-left: 20px;  /* Keep default indentation */
+    padding-left: 20px; /* Add padding for list markers */
+    margin-bottom: 25px; /* Space below lists */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+ul {
+    list-style-type: "🍫"; /* Chocolate bullet*/
+}
+
+ol {
+    list-style-type: decimal; /* Default numbered list */
+}

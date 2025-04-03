@@ -1,0 +1,101 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif; /* Text fonts that goes along with the topic */
+    margin: 0;
+    padding: 0;
+    line-height: 1.7; /* Line height for readability */
+    background-color: #f5f5f5; /* Light gray background, professional */
+    color: #333;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #e0e0e0; /* Navigation bar background color */
+    color: #212121; /* Text color for navigation bar */
+    padding: 10px 0; 
+    position: sticky; /* Sticky positioning for the navigation bar */
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the navigation items */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #212121;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #e0f2f7; /* Change color for hover */
+    color: #1976d2; /* Blue hover */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px; 
+    max-width: 800px; 
+    margin: 0 auto;
+    background-color: white; /* White background for sections */
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for section depth */
+    margin-bottom: 20px;
+}
+
+section h1, section h2 {
+    color: #1a237e; /* Color for headings */
+    text-align: center; /* Center align headings */
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif; /* Text font for headings */
+    font-weight: 600; /* Semi-bold font weight for emphasis */
+    letter-spacing: 0.5px; /* Subtle letter spacing for elegance */
+}
+
+section ul {
+    padding: 0;
+    text-align: center; /* Center align the list */
+}
+
+section ul li {
+    margin-bottom: 8px;
+    display: block; /* Change from inline-block back to block */
+    text-align: center; /* Center align list items */
+}
+
+section ul li::before {
+    content: "☾ "; /* Use the moon symbol as a bullet point */
+    color: #1a237e; /* Match heading color for consistency */
+    margin-right: 8px; /* Add spacing between the moon and the list item text */
+}
+section p {
+    text-align: center; /* Center align paragraph text */
+    margin-bottom: 20px;
+    color: #424242; /* Dark gray for paragraph text */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block; /* Display as inline-block for button styling */
+    padding: 10px 20px; 
+    background-color: #64b5f6; /* Blue button, professional */
+    color: white; /* White text color for button */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.button:hover {
+    background-color: #1e88e5; /* Darker blue on hover */
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh; /* Make the body take up the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+.video-container { /* Video container styles */
+    width: 80%;
+    max-width: 700px; /* Container maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: flex;
+    justify-content: center; /* Center the video */
+}
+
+video { /* Video styles */
+    width: 100%; /* Video size fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
